@@ -1,6 +1,6 @@
 # Auto_SkinClub_Reedem
 
-Basicamente es mi primer proyecto con python, y sirve para participar automaticamente en la Free-case de la pagina.
+Basicamente es mi primer proyecto con python, y sirve para participar automaticamente en la Free-case de la pagina: https://skin.club/es/cases/free-case
 
 Para que funcione correctamente hay que tener los siguientes requisitos:
 
