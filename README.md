@@ -10,4 +10,4 @@ Para que funcione correctamente hay que tener los siguientes requisitos:
 
 -Geckodriver: https://github.com/mozilla/geckodriver/releases  (Aunque si descargas este paquete ya viene una version dentro.)
 
--Selenium: CMD > ``pip install selenium``
+-Selenium: terminal > ``pip install selenium``
