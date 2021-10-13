@@ -21,7 +21,7 @@ def login_steam(driver):
 
 def code_steam_security(driver):
     code_type = None
-    while code_type != "S" and code_type != "C":
+    while code_type != "S" and code_type != "M":
 
         code_type = input("Que tipo de codigo tienes ? [Smartphone[S] | Mail[M]]").upper()
 
@@ -32,7 +32,7 @@ def code_steam_security(driver):
             code.send_keys(code_user + Keys.ENTER)
             break
 
-        elif code_type == "C":
+        elif code_type == "M":
             code_user = input("Introduce el codigo: ").upper()
             form_steam = driver.find_element_by_class_name("newmodal_content")
             code = form_steam.find_element_by_id("authcode")
